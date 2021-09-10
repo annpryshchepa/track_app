@@ -4,9 +4,10 @@
   max-width: 380px;
   background-color: $main-background;
   height: 100vh;
+  font-family: 'Work Sans', sans-serif;
 
   .nav > li {
-    width: 190px;
+    width: 50vw;
   }
 
   .nav-tabs .nav-link.active  {
@@ -17,10 +18,12 @@
 
   .nav-link {
     color: $main-green;
+    font-size: 18px;
   }
 
   .nav-tabs .nav-link.active, .nav-tabs .nav-link.active:hover {
     border-bottom-color: transparent;
+    border-radius: 0;
   }
 
   .nav-tabs .nav-link {
