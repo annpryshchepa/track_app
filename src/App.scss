@@ -4,4 +4,40 @@
   max-width: 380px;
   background-color: $main-background;
   height: 100vh;
+
+  .nav > li {
+    width: 190px;
+  }
+
+  .nav-tabs .nav-link.active  {
+    border-color: $main-green;
+    color: $white;
+    background-color: $main-green;
+  }
+
+  .nav-link {
+    color: $main-green;
+  }
+
+  .nav-tabs .nav-link.active, .nav-tabs .nav-link.active:hover {
+    border-bottom-color: transparent;
+  }
+
+  .nav-tabs .nav-link {
+    border-bottom-color: $main-green;
+    color: $main-green;
+
+    &:hover {
+      color: $main-green;
+      border-bottom-color: $main-green;
+      cursor:pointer;
+    }
+  }
+
+  .nav-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
 }
