@@ -1,6 +1,5 @@
 import { Button } from 'reactstrap';
 import PropTypes from "prop-types";
-import "../../icon/stopwatch.svg";
 
 import './Button.scss';
 
