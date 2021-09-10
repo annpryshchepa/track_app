@@ -1,6 +1,34 @@
-import { Button } from './components';
 import logo from './logo.svg';
-import './App.css';
+
+import 'bootstrap/dist/css/bootstrap.css';
+
+import './App.scss';
+
+// const click = () => console.log('click');
+//TODO use these buttons 
+{/* <Button
+content="start"
+onClickAction={click}
+isOutline
+buttonIcon="start"
+/>
+<Button
+content="stop"
+onClickAction={click}
+isOutline
+buttonIcon="stop"
+/>
+<Button
+          content="shutdown"
+          onClickAction={click}
+          className="shutdown"
+        />
+         <Button
+          content="cancel shutdown"
+          onClickAction={click}
+          className="cancel-shutdown"
+        /> */}
+
 
 export const App = () => {
   return (
@@ -10,15 +38,6 @@ export const App = () => {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <Button />
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          React
-        </a>
       </header>
     </div>
   );
