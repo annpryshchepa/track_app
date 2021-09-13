@@ -4,34 +4,6 @@ import { Dashboard, HomePage } from './components';
 import classnames from 'classnames';
 import './App.scss';
 import 'bootstrap/dist/css/bootstrap.css';
-  
-
-/* eslint-disable no-lone-blocks */
-// const click = () => console.log('click');
-//TODO use these buttons 
-{/* <Button
-content="start"
-onClickAction={click}
-isOutline
-buttonIcon="start"
-/>
-<Button
-content="stop"
-onClickAction={click}
-isOutline
-buttonIcon="stop"
-/>
-<Button
-          content="shutdown"
-          onClickAction={click}
-          className="shutdown"
-        />
-         <Button
-          content="cancel shutdown"
-          onClickAction={click}
-          className="cancel-shutdown"
-        /> */}
-
 
 export const App = () => {
   const home = 'home';

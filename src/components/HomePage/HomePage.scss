@@ -1,0 +1,26 @@
+@import "../../variables";
+
+.HomePage {
+  padding: 20px;
+
+  &--content_wrapper {
+    padding-bottom: 10px;
+
+    h2 {
+      text-transform: uppercase;
+      color: $main-green;
+      text-align: center;
+    }
+
+    li {
+      text-transform: capitalize;
+    }
+  }
+
+  &--button_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
+  }
+}
