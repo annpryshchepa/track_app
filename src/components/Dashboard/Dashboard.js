@@ -9,7 +9,7 @@ const currentTime = format(new Date(), 'kk:mm:ss')
 
 
 export const Dashboard = () => {
-  const renderMockedRecords = mockedRecords.map(({date, name, number}) => {
+  const renderRecords = mockedRecords.map(({date, name, number}) => {
     const modifiedData = format(new Date(date), 'dd MMMM yyyy');
 
   return <li>{`Date: ${modifiedData}, #${number}, File name: ${name}`}</li>
@@ -52,7 +52,7 @@ export const Dashboard = () => {
       <div className={`${CN}--block`}>
         <h2>Previous records</h2>
         <ul>
-          {renderMockedRecords}
+          {renderRecords}
         </ul>
       </div>
     </div>
