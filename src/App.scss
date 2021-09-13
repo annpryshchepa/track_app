@@ -3,7 +3,7 @@
 .App {
   max-width: 380px;
   background-color: $main-background;
-  height: 100vh;
+  height: 100%;
   font-family: 'Work Sans', sans-serif;
 
   .nav > li {
@@ -48,5 +48,4 @@
     list-style-type: none;
     padding-left: 0;
   }
-
 }

@@ -1,0 +1,21 @@
+@import '../../variables';
+
+.Dashboard {
+  padding: 20px;
+
+  &--block {
+    h2 {
+      text-transform: uppercase;
+      color: $main-green;
+    }
+
+    li {
+      text-transform: capitalize;
+    }
+
+    p {
+      margin: 0;
+      text-transform: capitalize;
+    }
+  }
+}
